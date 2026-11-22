@@ -1,0 +1,42 @@
+-- Saturation by cohort and week, with zones mapped to cohorts.
+-- Project: dhub-glovo (billing). Tables: fulfillment-dwh-production.curated_data_shared_glovo.
+-- Pre: 2026-10-05 to 2026-11-01. Post: 2026-11-02 to 2026-11-21.
+
+WITH item7 AS (SELECT x FROM UNNEST([908709,908650,930738,911658,908738,908736,930557,908712,908617]) AS x),
+target AS (SELECT x FROM UNNEST([852013,935268,707340,692234,629959,629913,629921,707351,647237,707173,756126,641208,921446,479938,802513,707544,566080,935635,934520,935661,935648,961393,952996,627028,886260,968952,908709,908650,930738,911658,908738,908736,930557,908712,908617,727417,727190,727201,630709,628050,726705,653243,582559,727370,726402,788135,726417,423098,657484,905774,730107,726474,788138,726444,544910,515894,515892,726508,537919,930644,729525,726992,727348,527574,726988,727004,727409,730114,730106,518099,727356,727492,726742,726423,727430,953814,726999,515876,727408,729586,729529,515934,726469,515877,855783,727271,727481,898957,727471,727221,953827,727211,726777,726498,855625,886587,727085,727392,855699,876048,727232,869921,912700,890151,834234,888330,932651,727148,624730,648154,624721,727113,625309,624761,726426,727118,625303,727127,727317,691618,727145,624765,799519,624711,727137,624757,434385,727231,799337,727131,799343,727133,727132,730908,840338,434380,799179,629484,624361,624771,627373,627388,629938,624780,629866,730354,730965,866154,650450,726437,727673,727345,799340,799342,799482,840431,648114,913974,726431,730922,727123,660964,790051,727507,727394,726930,811263,726811,565692,565701,726937,566572,928638,952345,726942,727548,730132,646125,647466,740784,639540,740773,727183,352880,727445,347075,727329,727738,727479,727311,727728,727716,727747,727216,347077,562399,727398,529556,730969,580507,338532]) AS x),
+base AS (
+  SELECT o.zone_name, od.order_city_name, od.store_address_id
+  FROM `fulfillment-dwh-production.curated_data_shared_glovo.logistics_orders__orders` o
+  JOIN `fulfillment-dwh-production.curated_data_shared_glovo.order_descriptors__order_descriptors_v2` od
+    ON CAST(od.order_id AS STRING) = CAST(o.global_order_id AS STRING)
+   AND od.p_creation_date BETWEEN '2026-10-04' AND '2026-11-22'
+  WHERE o.p_creation_date BETWEEN '2026-10-04' AND '2026-11-22'
+    AND o.report_date BETWEEN '2026-10-05' AND '2026-11-21'
+),
+target_cities AS (SELECT DISTINCT order_city_name FROM base WHERE store_address_id IN (SELECT x FROM target)),
+zone_map AS (
+  SELECT b.zone_name,
+    LOGICAL_OR(b.store_address_id IN (SELECT x FROM item7)) AS has_item7,
+    LOGICAL_OR(b.store_address_id IN (SELECT x FROM target) AND b.store_address_id NOT IN (SELECT x FROM item7)) AS has_other,
+    LOGICAL_OR(b.order_city_name IN (SELECT order_city_name FROM target_cities)) AS in_target_city
+  FROM base b WHERE b.zone_name IS NOT NULL GROUP BY b.zone_name
+),
+zone_cohort AS (
+  SELECT zone_name,
+    CASE WHEN has_item7 AND has_other THEN 'Mixed'
+         WHEN has_item7 THEN 'Item 7 Go'
+         WHEN has_other THEN 'Other Experiment'
+         WHEN in_target_city THEN 'Normal' END AS cohort
+  FROM zone_map
+)
+SELECT zc.cohort, DATE_TRUNC(s.p_report_date, WEEK(MONDAY)) AS week_start,
+  CASE WHEN s.p_report_date <= '2026-11-01' THEN 'pre' ELSE 'post' END AS period,
+  COUNT(DISTINCT s.zone_name) AS zones,
+  SUM(s.total_sessions) AS sessions,
+  SUM(s.sessions_impacted_by_shrinking) AS shrink_sessions,
+  SUM(s.sessions_impacted_by_closure) AS closure_sessions
+FROM `fulfillment-dwh-production.curated_data_shared_glovo.sessions_saturation_kpis__main_zone_day` s
+JOIN zone_cohort zc ON zc.zone_name = s.zone_name
+WHERE s.p_report_date BETWEEN '2026-10-05' AND '2026-11-21' AND zc.cohort IS NOT NULL
+GROUP BY 1,2,3
+ORDER BY 1,2,3;
