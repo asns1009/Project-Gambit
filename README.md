@@ -14,6 +14,7 @@ Pre/post analysis of Glovo partner SAIDs in Nigeria. Local teams drew non-overla
 
 - `sql/saturation_by_cohort.sql`: shrinkage and closure sessions by cohort and week, with zones mapped to cohorts.
 - `sql/weekly_orders_by_cohort.sql`: completed orders, active SAIDs, delivery time and distances by cohort and week.
+- `sql/dropoff_distance_by_zone.sql`: drop-off distance by zone, comparing each zone's Experiment SAIDs with Normal stores in the same zone.
 
 ## Caveats
 
