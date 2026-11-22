@@ -1,0 +1,122 @@
+store_address_id,store_name,city,pre_orders_per_day,post_orders_per_day,orders_per_day_change_pct,pre_dropoff_km,post_dropoff_km,dropoff_change_km,dropoff_up_or_similar,orders_down_or_same
+727394,Molabat Kitchen,Lagos,4.6,5.3,14.2,4.01,4.63,0.62,true,false
+740773,SPAR Market,Lagos,10.9,17.4,58.8,2.76,3.3,0.54,true,false
+908738,Item7 Go,Ibadan,25.8,41.6,61.1,6.45,6.87,0.42,true,false
+908709,Item7 Go,Ibadan,4.2,5.2,23.2,2.2,2.57,0.38,true,false
+726992,Chicken Republic,Lagos,36.9,47.1,27.7,3.27,3.57,0.29,true,false
+730106,Chicken Republic,Lagos,20.1,22.1,9.7,3.65,3.91,0.26,true,false
+624765,Medplus Pharmacy,Lagos,2.1,3.3,54.2,1.75,2.0,0.24,true,false
+911658,Item7 Go,Ibadan,13.6,20.4,49.5,3.21,3.43,0.23,true,false
+928638,My Noodles Cafe,Lagos,4.7,5.2,11.1,3.68,3.89,0.22,true,false
+934520,Tonia Pharmacy,Abuja,4.4,3.8,-15.3,2.9,3.13,0.22,true,true
+908712,Item7 Go,Ibadan,32.1,45.1,40.5,3.8,4.01,0.21,true,false
+727131,Medplus Pharmacy,Lagos,4.3,3.0,-30.6,2.24,2.45,0.21,true,true
+740784,SPAR Market,Lagos,22.3,21.1,-5.1,3.75,3.94,0.19,true,true
+799482,Medplus Pharmacy,Lagos,6.6,7.2,8.8,3.94,4.11,0.17,true,false
+727132,Medplus Pharmacy,Lagos,3.1,3.3,4.6,2.56,2.71,0.15,true,true
+727348,Chicken Republic,Lagos,19.5,22.4,14.6,2.32,2.45,0.14,true,false
+726417,Burger King,Lagos,26.8,31.8,18.6,4.08,4.21,0.13,true,false
+726988,Chicken Republic,Lagos,31.2,35.5,13.9,2.14,2.26,0.12,true,false
+726423,Chicken Republic,Lagos,13.8,13.9,0.9,2.24,2.35,0.11,true,true
+515894,Chicken Republic,Lagos,74.4,74.8,0.7,2.25,2.36,0.11,true,true
+727232,Chicken Republic,Lagos,17.4,19.1,9.5,1.89,1.99,0.11,true,false
+727728,The Place,Lagos,45.6,55.3,21.0,3.75,3.87,0.11,true,false
+908650,Item7 Go,Ibadan,20.0,30.8,53.5,3.94,4.04,0.1,true,false
+727471,Chicken Republic,Lagos,11.9,16.4,38.3,2.16,2.24,0.09,true,false
+660964,Molabat Kitchen,Lagos,220.9,230.3,4.3,3.52,3.59,0.08,true,true
+726742,Chicken Republic,Lagos,16.0,18.5,15.9,2.16,2.25,0.08,true,false
+727409,Chicken Republic,Lagos,25.4,31.1,22.3,2.09,2.17,0.08,true,false
+727183,The Place,Lagos,21.4,27.4,27.8,3.59,3.66,0.07,true,false
+852013,Market Square Supermarket,Abuja,21.4,19.1,-10.3,4.85,4.92,0.06,true,true
+707544,The Place,Abuja,55.7,59.6,7.0,5.85,5.91,0.06,true,false
+434380,Medplus Pharmacy,Lagos,2.1,2.9,35.3,3.02,3.07,0.05,true,false
+788135,Burger King,Lagos,16.6,21.5,29.2,2.89,2.94,0.05,true,false
+855783,Chicken Republic,Lagos,13.9,19.1,37.5,1.19,1.24,0.05,true,false
+886587,Chicken Republic,Lagos,2.5,3.0,16.3,4.53,4.58,0.05,true,false
+727417,Amoke Oge,Lagos,116.3,119.9,3.1,3.2,3.25,0.05,true,true
+625309,Medplus Pharmacy,Lagos,2.9,2.6,-11.2,2.54,2.58,0.04,true,true
+629921,Medplus Pharmacy,Abuja,10.0,10.1,1.4,3.5,3.54,0.04,true,true
+729586,Chicken Republic,Lagos,34.6,33.0,-4.6,5.96,6.0,0.03,true,true
+727392,Chicken Republic,Lagos,18.3,24.2,32.6,2.39,2.41,0.03,true,false
+707340,Medplus Pharmacy,Abuja,20.9,17.4,-16.9,6.05,6.07,0.02,true,true
+727085,Chicken Republic,Lagos,16.9,19.8,16.9,2.18,2.2,0.02,true,false
+727148,Medplus Pharmacy,Lagos,4.8,4.8,1.3,2.46,2.48,0.02,true,true
+886260,Yahuza Suya,Abuja,36.9,42.5,15.2,5.02,5.02,0.01,true,false
+653243,Burger King,Lagos,42.6,49.0,15.0,3.88,3.88,0.01,true,false
+726999,Chicken Republic,Lagos,18.8,24.4,30.1,2.18,2.19,0.01,true,false
+952996,Yahuza Suya,Abuja,39.8,35.9,-9.8,6.17,6.18,0.01,true,true
+727738,The Place,Lagos,38.6,47.1,22.2,3.68,3.68,0.01,true,false
+730922,Medplus Pharmacy,Lagos,3.6,3.3,-9.4,1.01,1.01,-0.0,true,true
+479938,The Place,Abuja,41.9,46.7,11.5,3.45,3.43,-0.02,true,false
+726777,Chicken Republic,Lagos,19.3,23.9,23.7,2.49,2.46,-0.02,true,false
+727507,Molabat Kitchen,Lagos,10.9,11.9,9.6,4.96,4.95,-0.02,true,false
+729529,Chicken Republic,Lagos,32.2,33.7,4.6,1.9,1.88,-0.02,true,true
+908617,Item7 Go,Ibadan,36.0,56.9,57.9,3.52,3.49,-0.03,true,false
+646125,SPAR Market,Lagos,53.7,51.0,-5.0,3.07,3.04,-0.03,true,true
+727311,The Place,Lagos,22.4,25.0,11.6,3.38,3.35,-0.03,true,false
+727673,Medplus Pharmacy,Lagos,6.5,4.3,-33.5,3.82,3.79,-0.03,true,true
+930557,Item7 Go,Ibadan,10.3,14.6,42.0,4.95,4.91,-0.03,true,false
+727398,The Place,Lagos,9.9,9.8,-0.4,3.43,3.41,-0.03,true,true
+544910,Chicken Republic,Lagos,41.0,35.5,-13.5,3.09,3.06,-0.03,true,true
+515892,Chicken Republic,Lagos,82.0,83.5,1.8,1.81,1.77,-0.04,true,true
+930738,Item7 Go,Ibadan,11.4,20.6,80.9,2.53,2.49,-0.04,true,false
+855625,Chicken Republic,Lagos,3.3,8.1,149.2,2.59,2.55,-0.04,true,false
+726705,Burger King,Lagos,24.1,33.0,36.9,4.33,4.3,-0.04,true,false
+565692,My Noodles Cafe,Lagos,21.4,20.9,-2.1,2.86,2.81,-0.05,true,true
+888330,Item7 Go,Lagos,207.3,265.9,28.3,4.54,4.49,-0.05,true,false
+580507,The Place,Lagos,57.5,66.7,15.8,4.57,4.52,-0.06,true,false
+641208,SPAR Market,Abuja,31.1,31.0,-0.3,6.8,6.74,-0.06,true,true
+628050,Amoke Oge,Lagos,131.5,133.8,1.8,4.66,4.61,-0.06,true,true
+788138,Burger King,Lagos,18.6,23.6,27.1,2.25,2.17,-0.07,true,false
+529556,The Place,Lagos,68.5,57.1,-16.6,3.27,3.2,-0.07,true,true
+691618,Medplus Pharmacy,Lagos,7.3,5.8,-21.1,2.9,2.82,-0.07,true,true
+726444,Chicken Republic,Lagos,17.4,18.4,5.5,2.92,2.85,-0.07,true,false
+890151,Item7 Go,Lagos,380.4,437.6,15.0,5.45,5.38,-0.08,true,false
+727145,Medplus Pharmacy,Lagos,3.6,4.5,24.8,3.17,3.08,-0.09,true,false
+802513,The Place,Abuja,17.8,19.6,10.1,2.47,2.37,-0.1,true,false
+692234,Medplus Pharmacy,Abuja,3.5,3.0,-16.6,3.19,3.07,-0.11,false,true
+730965,Medplus Pharmacy,Lagos,6.3,5.9,-6.7,2.64,2.52,-0.11,false,true
+518099,Chicken Republic,Lagos,73.8,74.2,0.5,2.02,1.91,-0.11,false,true
+727133,Medplus Pharmacy,Lagos,4.3,3.4,-20.0,3.83,3.73,-0.11,false,true
+527574,Chicken Republic,Lagos,39.6,39.7,0.3,3.0,2.87,-0.13,false,true
+729525,Chicken Republic,Lagos,37.0,36.0,-2.7,2.76,2.63,-0.13,false,true
+639540,SPAR Market,Lagos,130.3,136.1,4.5,4.5,4.35,-0.16,false,true
+756126,SPAR Market,Abuja,72.3,71.3,-1.3,4.0,3.83,-0.17,false,true
+565701,My Noodles Cafe,Lagos,10.3,7.2,-29.8,2.64,2.47,-0.17,false,true
+566572,My Noodles Cafe,Lagos,16.5,15.2,-7.7,2.3,2.1,-0.19,false,true
+799343,Medplus Pharmacy,Lagos,3.4,2.8,-16.6,2.89,2.68,-0.2,false,true
+566080,The Place,Abuja,72.7,72.2,-0.8,5.43,5.21,-0.22,false,true
+624711,Medplus Pharmacy,Lagos,4.4,3.1,-28.9,1.68,1.46,-0.22,false,true
+730132,SPAR Market,Lagos,40.9,40.2,-1.8,4.7,4.48,-0.22,false,true
+515934,Chicken Republic,Lagos,27.0,27.3,1.2,2.1,1.86,-0.24,false,true
+790051,Molabat Kitchen,Lagos,187.0,176.0,-5.9,4.49,4.24,-0.25,false,true
+515876,Chicken Republic,Lagos,36.4,30.3,-16.7,2.01,1.76,-0.25,false,true
+935635,Tonia Pharmacy,Abuja,6.6,6.5,-1.4,5.11,4.86,-0.25,false,true
+730114,Chicken Republic,Lagos,29.2,30.2,3.4,4.08,3.83,-0.25,false,true
+352880,The Place,Lagos,84.7,87.7,3.5,2.16,1.91,-0.25,false,true
+726937,My Noodles Cafe,Lagos,7.4,7.8,4.8,4.23,3.97,-0.26,false,true
+727127,Medplus Pharmacy,Lagos,5.3,4.7,-11.4,3.38,3.11,-0.26,false,true
+347077,The Place,Lagos,66.2,69.3,4.8,3.1,2.76,-0.33,false,true
+625303,Medplus Pharmacy,Lagos,10.1,9.3,-8.2,2.95,2.58,-0.37,false,true
+727201,Amoke Oge,Lagos,155.7,161.2,3.5,4.53,4.14,-0.39,false,true
+930644,Chicken Republic,Lagos,25.8,26.6,3.0,3.2,2.77,-0.43,false,true
+624761,Medplus Pharmacy,Lagos,4.1,3.9,-6.3,1.84,1.35,-0.49,false,true
+629913,Medplus Pharmacy,Abuja,5.0,3.3,-34.0,2.46,1.94,-0.52,false,true
+935661,Tonia Pharmacy,Abuja,4.2,4.3,2.9,3.61,3.09,-0.52,false,true
+953827,Chicken Republic,Lagos,26.4,26.1,-1.3,2.73,2.21,-0.52,false,true
+912700,Item7 Go,Lagos,194.5,201.1,3.4,5.74,5.2,-0.55,false,true
+898957,Chicken Republic,Lagos,70.0,66.0,-5.8,2.75,2.18,-0.57,false,true
+726811,My Noodles Cafe,Lagos,8.0,5.8,-27.2,3.76,3.19,-0.57,false,true
+727408,Chicken Republic,Lagos,13.8,12.1,-12.8,1.91,1.33,-0.58,false,true
+935268,Market Square Supermarket,Abuja,24.5,23.1,-5.7,9.12,8.53,-0.59,false,true
+727548,SPAR Market,Lagos,33.3,33.3,0.0,5.61,4.94,-0.67,false,true
+582559,Burger King,Lagos,23.5,20.9,-10.9,2.43,1.75,-0.68,false,true
+726498,Chicken Republic,Lagos,8.6,5.2,-39.8,2.8,2.09,-0.7,false,true
+726930,My Noodles Cafe,Lagos,9.3,9.6,2.8,3.63,2.93,-0.7,false,true
+647237,Medplus Pharmacy,Abuja,9.6,8.1,-15.4,9.22,8.46,-0.76,false,true
+727445,The Place,Lagos,10.4,10.7,2.1,4.5,3.68,-0.82,false,true
+952345,My Noodles Cafe,Lagos,5.9,6.0,2.4,6.9,6.0,-0.89,false,true
+727137,Medplus Pharmacy,Lagos,3.3,2.5,-24.7,4.17,3.27,-0.9,false,true
+968952,Yahuza Suya,Abuja,10.5,8.2,-22.2,4.15,3.15,-1.0,false,true
+730107,Burger King,Lagos,4.9,3.0,-38.7,4.56,3.5,-1.06,false,true
+630709,Amoke Oge,Lagos,23.2,17.4,-24.7,2.59,1.41,-1.18,false,true
