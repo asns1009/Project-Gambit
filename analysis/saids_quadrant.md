@@ -7,7 +7,7 @@ Each dot is one SAID with at least 50 completed orders in both periods (166 SAID
 - **Pre:** 5 Oct to 1 Nov 2026 (28 days). **Post:** 2 to 21 Nov 2026 (20 days).
 - Orders are compared per day, because the two periods have different lengths.
 - Drop-off distance is the average Google drop-off distance in km, from completed orders.
-- Dots beyond the axis limits are drawn at the edge. Three SAIDs are affected: 855625 (+149%), 740773 (+0.54 km) and 908738 (+0.42 km) are clipped at the edge of their axes.
+- All points fall inside the axis limits (orders -40% to +149%, drop-off -1.25 to +0.62 km).
 
 ## Quadrants
 
@@ -23,7 +23,7 @@ Each dot is one SAID with at least 50 completed orders in both periods (166 SAID
 - Most SAIDs (80 of 166) grew orders while their drop-offs got shorter. This is the pattern the overlap-coverage question predicts.
 - Of the 14 Item 7 Go SAIDs, 9 are in the "orders up, distance down" quadrant and 5 are in "orders up, distance up". The five with longer trips are all Ibadan SAIDs: 908709, 908712, 908738, 908650 and 911658.
 - No Item 7 Go SAID is in either "orders down" quadrant.
-- Only 9 SAIDs lost orders and got longer trips. Most of them are Medplus Pharmacy or Chicken Republic SAIDs in Lagos.
+- Only 9 SAIDs lost orders and got longer trips. Four of them are Medplus Pharmacy (625309, 707340, 727131, 730922). The others are SPAR Market (740784), Market Square Supermarket (852013), Tonia Pharmacy (934520), Yahuza Suya (952996) and Chicken Republic (729586).
 
 ## Caveats
 
