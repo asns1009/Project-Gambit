@@ -1,0 +1,81 @@
+brand,zone,period,days,orders,orders_per_day,avg_dropoff_km,glovo_dt_min,dropoff_time_min,rr_proxy_pct,closure_pct,shrink_pct,saturation_pct
+Amoke Oge,Ikeja,post,20,1729,86.5,5.5,46.4,23.4,5.8,0.38,0.0,0.38
+Amoke Oge,Ikeja,pre,28,2315,82.7,5.74,45.2,23.6,5.4,1.24,1.03,2.26
+Amoke Oge,Lagos island,post,20,3019,150.9,4.22,31.5,20.3,3.9,0.21,0.27,0.48
+Amoke Oge,Lagos island,pre,28,4319,154.3,4.33,31.1,20.0,3.3,0.34,0.12,0.46
+Amoke Oge,Lagos mainland,post,20,5535,276.8,3.68,35.0,18.4,4.5,0.66,1.36,2.02
+Amoke Oge,Lagos mainland,pre,28,7402,264.4,3.83,33.5,17.6,3.9,1.67,3.91,5.58
+Burger King,Ajah,post,20,1139,57.0,3.73,39.2,21.0,3.5,0.24,0.61,0.85
+Burger King,Ajah,pre,28,1475,52.7,3.79,39.1,20.6,3.9,0.57,0.0,0.57
+Burger King,Ikeja,post,20,1447,72.3,3.64,42.2,18.9,5.0,0.38,0.0,0.38
+Burger King,Ikeja,pre,28,1589,56.8,3.94,47.8,19.9,6.3,1.24,1.03,2.26
+Burger King,Lagos island,post,20,2493,124.7,2.66,35.9,17.3,5.8,0.21,0.27,0.48
+Burger King,Lagos island,pre,28,2850,101.8,2.86,35.9,17.1,6.4,0.34,0.12,0.46
+Burger King,Lagos mainland,post,20,1615,80.8,3.71,43.2,19.7,5.6,0.66,1.36,2.02
+Burger King,Lagos mainland,pre,28,1751,62.5,3.71,43.5,19.8,5.9,1.67,3.91,5.58
+Burger King,Sangotedo,post,20,60,3.0,3.5,52.8,18.9,0.0,3.85,0.0,3.85
+Burger King,Sangotedo,pre,28,136,4.9,4.53,48.4,20.0,2.9,4.19,0.0,4.19
+Chicken Republic,Ajah,post,20,5693,284.6,2.52,35.0,15.9,3.0,0.24,0.61,0.85
+Chicken Republic,Ajah,pre,28,8109,289.6,2.68,35.5,16.7,3.7,0.57,0.0,0.57
+Chicken Republic,Ikeja,post,20,5961,298.1,2.42,37.1,14.0,5.5,0.38,0.0,0.38
+Chicken Republic,Ikeja,pre,28,6865,245.2,2.58,39.3,14.6,5.7,1.24,1.03,2.26
+Chicken Republic,Lagos island,post,20,8680,434.0,2.27,31.2,12.4,3.3,0.21,0.27,0.48
+Chicken Republic,Lagos island,pre,28,11697,417.8,2.43,30.5,12.6,3.3,0.34,0.12,0.46
+Chicken Republic,Lagos mainland,post,20,6526,326.3,2.48,36.6,13.6,5.8,0.66,1.36,2.02
+Chicken Republic,Lagos mainland,pre,28,7806,278.8,2.44,36.2,13.8,5.3,1.67,3.91,5.58
+Chicken Republic,Sangotedo,post,20,660,33.0,6.0,47.1,20.9,1.3,3.85,0.0,3.85
+Chicken Republic,Sangotedo,pre,28,970,34.6,5.96,41.3,19.0,1.8,4.19,0.0,4.19
+Item7 Go,Ajah,post,20,997,49.9,6.64,57.7,26.8,6.6,0.24,0.61,0.85
+Item7 Go,Ajah,pre,28,1314,46.9,6.64,55.7,26.8,6.7,0.57,0.0,0.57
+Item7 Go,Ibd,post,20,5246,262.3,4.1,31.6,15.9,1.6,1.34,0.0,1.34
+Item7 Go,Ibd,pre,28,4858,173.5,3.99,31.5,15.0,2.1,0.99,0.0,0.99
+Item7 Go,Ikeja,post,20,11366,568.3,4.86,47.2,22.5,4.4,0.38,0.0,0.38
+Item7 Go,Ikeja,pre,28,12247,437.4,5.22,49.3,23.8,4.8,1.24,1.03,2.26
+Item7 Go,Lagos island,post,20,7784,389.2,5.23,52.1,21.8,4.3,0.21,0.27,0.48
+Item7 Go,Lagos island,pre,28,9335,333.4,5.28,46.5,20.3,3.5,0.34,0.12,0.46
+Item7 Go,Lagos mainland,post,20,9429,471.4,4.4,49.2,23.0,5.6,0.66,1.36,2.02
+Item7 Go,Lagos mainland,pre,28,10465,373.8,4.84,48.1,23.8,5.3,1.67,3.91,5.58
+Molabat Kitchen,Ajah,post,20,4906,245.3,3.75,32.3,19.1,3.3,0.24,0.61,0.85
+Molabat Kitchen,Ajah,pre,28,7012,250.4,3.89,31.5,18.6,2.4,0.57,0.0,0.57
+Molabat Kitchen,Ikeja,post,20,104,5.2,4.63,48.6,20.4,4.6,0.38,0.0,0.38
+Molabat Kitchen,Ikeja,pre,28,130,4.6,4.01,52.1,21.2,7.1,1.24,1.03,2.26
+Molabat Kitchen,Lagos island,post,20,3220,161.0,4.07,30.0,16.8,2.2,0.21,0.27,0.48
+Molabat Kitchen,Lagos island,pre,28,4409,157.5,4.08,29.0,15.8,1.5,0.34,0.12,0.46
+Molabat Kitchen,Lagos mainland,post,20,240,12.0,4.95,45.3,22.0,6.6,0.66,1.36,2.02
+Molabat Kitchen,Lagos mainland,pre,28,304,10.9,4.96,44.5,22.3,9.0,1.67,3.91,5.58
+My Noodles Cafe,Ajah,post,20,174,8.7,2.63,36.9,17.3,5.9,0.24,0.61,0.85
+My Noodles Cafe,Ajah,pre,28,349,12.5,2.95,40.8,20.4,3.6,0.57,0.0,0.57
+My Noodles Cafe,Ikeja,post,20,398,19.9,3.5,35.0,15.9,5.9,0.38,0.0,0.38
+My Noodles Cafe,Ikeja,pre,28,602,21.5,4.01,37.6,16.9,4.4,1.24,1.03,2.26
+My Noodles Cafe,Lagos island,post,20,693,34.6,2.48,33.4,14.3,5.6,0.21,0.27,0.48
+My Noodles Cafe,Lagos island,pre,28,998,35.6,2.51,31.4,13.9,4.3,0.34,0.12,0.46
+My Noodles Cafe,Lagos mainland,post,20,418,20.9,4.07,38.5,17.8,6.7,0.66,1.36,2.02
+My Noodles Cafe,Lagos mainland,pre,28,564,20.1,4.52,41.1,19.6,5.5,1.67,3.91,5.58
+SPAR Market,Abv,post,20,3174,158.7,4.91,37.4,15.6,5.3,0.06,0.79,0.85
+SPAR Market,Abv,pre,28,4191,149.7,5.15,37.5,16.2,5.8,0.15,1.04,1.18
+SPAR Market,Ajah,post,20,1877,93.8,4.36,44.9,22.7,4.6,0.24,0.61,0.85
+SPAR Market,Ajah,pre,28,2403,85.8,4.54,43.8,23.3,3.5,0.57,0.0,0.57
+SPAR Market,Gwa,post,20,1243,62.1,6.06,38.9,17.9,3.2,0.32,0.05,0.37
+SPAR Market,Gwa,pre,28,1619,57.8,6.24,40.3,19.7,4.2,0.43,0.29,0.72
+SPAR Market,Ikeja,post,20,999,50.0,4.57,42.4,19.3,3.4,0.38,0.0,0.38
+SPAR Market,Ikeja,pre,28,1254,44.8,4.71,45.3,19.0,5.4,1.24,1.03,2.26
+SPAR Market,Lagos island,post,20,2493,124.7,3.58,36.2,17.5,3.8,0.21,0.27,0.48
+SPAR Market,Lagos island,pre,28,3472,124.0,3.68,37.1,18.0,4.7,0.34,0.12,0.46
+SPAR Market,Lagos mainland,post,20,1241,62.0,4.14,40.8,19.0,7.1,0.66,1.36,2.02
+SPAR Market,Lagos mainland,pre,28,1754,62.6,4.49,41.0,19.2,5.5,1.67,3.91,5.58
+The Place,Abv,post,20,2768,138.4,4.21,29.0,13.8,2.5,0.06,0.79,0.85
+The Place,Abv,pre,28,3703,132.3,4.4,29.6,14.1,3.6,0.15,1.04,1.18
+The Place,Ajah,post,20,3204,160.2,4.37,36.7,18.7,2.9,0.24,0.61,0.85
+The Place,Ajah,pre,28,4115,147.0,4.54,37.2,19.3,3.7,0.57,0.0,0.57
+The Place,Gwa,post,20,1192,59.6,5.91,32.8,17.8,2.5,0.32,0.05,0.37
+The Place,Gwa,pre,28,1562,55.8,5.86,33.9,17.8,3.5,0.43,0.29,0.72
+The Place,Ikeja,post,20,2842,142.1,3.02,34.2,15.9,5.1,0.38,0.0,0.38
+The Place,Ikeja,pre,28,3509,125.3,3.28,36.9,16.7,5.1,1.24,1.03,2.26
+The Place,Lagos island,post,20,6260,313.0,2.2,32.5,13.4,2.7,0.21,0.27,0.48
+The Place,Lagos island,pre,28,8487,303.1,2.46,31.8,14.2,3.6,0.34,0.12,0.46
+The Place,Lagos mainland,post,20,3158,157.9,3.36,36.7,17.5,5.2,0.66,1.36,2.02
+The Place,Lagos mainland,pre,28,3760,134.3,3.33,38.1,17.9,6.0,1.67,3.91,5.58
+Yahuza Suya,Abv,post,20,1876,93.8,5.0,41.0,16.3,3.9,0.06,0.79,0.85
+Yahuza Suya,Abv,pre,28,2701,96.5,5.14,40.7,16.7,4.5,0.15,1.04,1.18
+Yahuza Suya,Gwa,post,20,830,41.5,4.94,40.6,15.5,2.9,0.32,0.05,0.37
+Yahuza Suya,Gwa,pre,28,1040,37.1,5.03,40.1,15.5,3.5,0.43,0.29,0.72
